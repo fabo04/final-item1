@@ -1,0 +1,178 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+/* ----- Contenedor principal ----- */
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  /* ----- Formulario de login ----- */
+  .login-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #ccc;
+  }
+  
+  /* ----- Título ----- */
+  .login-form h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* ----- Mensaje de error ----- */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* ----- Etiquetas y campos de texto ----- */
+  .login-form label {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* ----- Botón de inicio de sesión ----- */
+  .btn-login {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-login:hover {
+    background-color: #286090;
+  }
+  
+  /* ----- Enlace a registro ----- */
+  .text-center a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  /* ----- Estilos para la página de albums ----- */
+  
+  /* Encabezado */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .header form button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .header form button:hover {
+    background-color: #ccc;
+  }
+  
+  
+  /* Sección de acciones de álbumes */
+  .album-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .album-actions form {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .album-actions select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  #edit {
+    border-bottom: 8px;
+  }
+  
+  /* Botones */
+  .btn-primary, .btn-action {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #286090;
+  }
+  
+  .btn-action {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .btn-action:hover {
+    background-color: #ccc;
+  }
+  
+  /* Tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.7rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+
+  #create {
+    background-color: green;
+  }
+
+  #btn-edit {
+    background-color: rgb(230, 208, 103);
+  }
+
+  #btn-delete {
+    background-color: rgb(242, 86, 59);
+  }

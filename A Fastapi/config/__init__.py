@@ -1,0 +1,2 @@
+STRCNX='sqlite:///tfinal.db'
+SQLALCHEMY_DATABASE_URI=STRCNX

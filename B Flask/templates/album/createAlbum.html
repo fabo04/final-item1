@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block main %}
+<div class="container-login">
+  <div class="login-form">
+    <h1>Crear Álbum</h1>
+    <form action="/albums/create" method="POST">
+      <label for="ArtistId">ID del Artista:</label>
+      <input type="number" id="ArtistId" name="ArtistId" required><br><br>
+
+      <label for="Title">Título:</label>
+      <input type="text" id="Title" name="Title" required><br><br>
+
+      <label for="Column1">Column1:</label>
+      <input type="text" id="Column1" name="Column1" required><br><br>
+
+      <input type="submit" value="Crear Álbum" class="btn-primary">
+    </form>
+  </div>
+</div>
+{% endblock %}
